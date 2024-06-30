@@ -10,6 +10,6 @@ class TestSample extends TestCase
 		$sample = new Sample();
 		$result = $sample->helloWorld();
 
-		$this->assertEquals("hello world", $result);
+		$this->assertEquals("hello world.", $result);
 	}
 }
